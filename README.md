@@ -18,3 +18,7 @@ Za předpokladu, že instalace zimbra je na "/opt/zimbra", stačí spustit skrip
 
     $ su 
     #  ./deploy.sh
+    
+# Informace
+Překlad je určen pro všechny kteří by rádi měli Zimbru v češtině :-)
+S případnými dotazy prosim na info@jirickajakub.cz
