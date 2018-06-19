@@ -4,14 +4,14 @@
 
 echo ""
 echo " ##################################################################################"
-echo " ###																			  ###"
-echo " ###			-- Cesky preklad pro Zimbru --			                          ###"
-echo " ###										                                      ###"
-echo " ###	Zimbra Collaboration Server Open Source Edition (8.8.8GA)			      ###"
-echo " ###																			  ###"
-echo " ###		Autor: Jiricka Jakub		Date: 19-06-2018						  ###"
-echo " ###		Kontakt: info@jirickajakub.cz										  ###"
-echo " ###																			  ###"
+echo " ###									      ###"
+echo " ###			-- Cesky preklad pro Zimbru --			      ###"
+echo " ###									      ###"
+echo " ###	Zimbra Collaboration Server Open Source Edition (8.8.8GA)	      ###"
+echo " ###									      ###"
+echo " ###		Autor: Jiricka Jakub		Date: 19-06-2018	      ###"
+echo " ###		Kontakt: info@jirickajakub.cz				      ###"
+echo " ###									      ###"
 echo " ##################################################################################"
 echo ""
 
@@ -50,11 +50,11 @@ do
 		su - zimbra -c "cp -fpr /opt/zimbra/jetty/webapps/zimbra/help/en_US/ /opt/zimbra/jetty/webapps/zimbra/help/eu"
 		su - zimbra -c "cp -fpr /opt/zimbra/jetty/webapps/zimbraAdmin/help/en_US/ /opt/zimbra/jetty/webapps/zimbraAdmin/help/eu"
 
-				echo "";
-				echo " Jazyk byl spravne implementovan";
-				echo " Poznámka: V některých částech Zimbry, které jsou závislé na Zimlets, nemusí být uvedeným jazykem cestina. Preklad zimletu nespada do rozsahu tohoto projektu.";
-				echo "";
-				num1=1;
+		echo "";
+		echo " Jazyk byl spravne implementovan";
+		echo " Poznámka: V některých částech Zimbry, které jsou závislé na Zimlets, nemusí být uvedeným jazykem cestina. Preklad zimletu nespada do rozsahu tohoto projektu.";
+		echo "";
+		num1=1;
 	fi
 	if [ "$INSTALACE" == "N" ] || [ "$INSTALACE" == "n" ]; then
 		echo "";
@@ -113,4 +113,3 @@ do
 		num3=1;
 	fi
 done
-
