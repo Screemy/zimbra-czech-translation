@@ -99,7 +99,7 @@ do
 		su - zimbra -c "zmcontrol stop";
 		sleep 10;
 		echo "";
-		su - zimbra -c "zmcontrol startup";
+		su - zimbra -c "zmcontrol start";
 		sleep 10;
 		echo "";
 		echo " Služba Zimbra byla restartována. Instalace byla dokončena.";
