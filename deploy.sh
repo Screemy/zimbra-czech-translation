@@ -35,15 +35,15 @@ do
 		cp -fp messages/* /opt/zimbra/jetty/webapps/zimbraAdmin/WEB-INF/classes/messages/
 		cp -fp keys/* /opt/zimbra/jetty/webapps/zimbraAdmin/WEB-INF/classes/keys/
 
-		# Přidejte localeName_cz = Czech do souborů ZmMsg_XX.properties jednotlivých jazyků.
+		# Přidejte localeName_cs_CZ = Czech do souborů ZmMsg_XX.properties jednotlivých jazyků.
 		for file1 in /opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/messages/ZmMsg_*; 
 			do
-				echo "localeName_cz = Czech" >> $file1;
+				echo "localeName_cs_CZ = Czech" >> $file1;
 			done
 
 		for file2 in /opt/zimbra/jetty/webapps/zimbraAdmin/WEB-INF/classes/messages/ZmMsg_*;
 			do
-				echo "localeName_cz = Czech" >> $file2;
+				echo "localeName_cs_CZ = Czech" >> $file2;
 			done
 
 		# Zkopírujeme soubory nápovědy.
