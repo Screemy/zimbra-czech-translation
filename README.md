@@ -19,7 +19,7 @@ Nebo stáhnutím [poslední verze](https://github.com/Screemy/zimbra-czech-trans
 Za předpokladu, že instalace zimbra je na "/opt/zimbra", stačí spustit skript jako root:
 
     $ su 
-    #  ./deploy.sh
+    $ ./deploy.sh
     
 # Informace
 Překlad je určen pro všechny kteří by rádi měli Zimbru v češtině :-)
