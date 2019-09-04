@@ -23,7 +23,6 @@ do
 		# Zmena prav a uzivatle k jazykovym souborum.
 		/bin/chmod 664 messages/*
 		/bin/chmod 664 keys/*
-		/bin/chmod 664 msgs/*
 		/bin/chown zimbra:zimbra messages/*
 		/bin/chown zimbra:zimbra keys/*
 
