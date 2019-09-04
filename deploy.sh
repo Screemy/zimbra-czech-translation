@@ -4,14 +4,14 @@
 
 echo ""
 echo " ##################################################################################"
-echo " ###									      ###"
-echo " ###			-- Cesky preklad pro Zimbru --			      ###"
-echo " ###									      ###"
-echo " ###	Zimbra Collaboration Server Open Source Edition (8.8.8GA)	      ###"
-echo " ###									      ###"
-echo " ###		Autor: Jiricka Jakub		Date: 19-06-2018	      ###"
-echo " ###		Kontakt: info@jirickajakub.cz				      ###"
-echo " ###									      ###"
+echo " ###									      									  ###"
+echo " ###								-- Cesky preklad pro Zimbru --			      ###"
+echo " ###									     									  ###"
+echo " ###			Zimbra Collaboration Server Open Source Edition (8.8.15)	      ###"
+echo " ###																		      ###"
+echo " ###						Autor: Jiricka Jakub		Date: 04.09.2019	      ###"
+echo " ###							Kontakt: info@root4u.cz						      ###"
+echo " ###									      									  ###"
 echo " ##################################################################################"
 echo ""
 
@@ -26,12 +26,10 @@ do
 		/bin/chmod 664 msgs/*
 		/bin/chown zimbra:zimbra messages/*
 		/bin/chown zimbra:zimbra keys/*
-		/bin/chown zimbra:zimbra msgs/*
 
 		# Zkopírujeme jazykové soubory na jejich odpovídající místa.
 		cp -fp messages/* /opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/messages/
 		cp -fp keys/* /opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/keys/
-		cp -fp msgs/* /opt/zimbra/conf/msgs/
 		cp -fp messages/* /opt/zimbra/jetty/webapps/zimbraAdmin/WEB-INF/classes/messages/
 		cp -fp keys/* /opt/zimbra/jetty/webapps/zimbraAdmin/WEB-INF/classes/keys/
 
