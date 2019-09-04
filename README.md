@@ -1,6 +1,6 @@
 # zimbra-czech-translation
 
-Český překlad pro Zimbru 8.8.8GA
+Český překlad pro Zimbru
 
 ## Instalace
 
