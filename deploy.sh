@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script, jehož funkcí je přidat soubory s překladem do českého jazyka v Zimbra Collaboration Server Open Source Edition (8.8.8GA) #
+# Script, jehož funkcí je přidat soubory s překladem do českého jazyka v Zimbra Collaboration Server Open Source Edition (8.8.15) #
 # Můžeme také nastavit důležité proměnné v konfiguraci serveru Zimbra (související se zobrazením implementovaného jazyka) #
 
 echo ""
